@@ -1,0 +1,24 @@
+.card{
+    background-color: aqua;
+    border-radius: 25px;
+    width: 80%;
+    height: auto;
+}
+
+.top-decoration{
+    background-color: #CEC4BD;
+    border: solid grey;
+    border-radius: 28%;
+    text-align: center;
+}
+
+.photoId{
+    margin-left: 3%;
+    margin-top: 2rem;
+    width: 10rem;
+    height: auto;
+}
+
+.full-name{
+    float: right;
+}
