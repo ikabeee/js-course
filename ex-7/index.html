@@ -9,44 +9,67 @@
 </head>
 
 <body>
+
     <div class="card">
-        <div class="top-decoration">
-            <h1>Instituto Nacional Electoral</h1>
-            <h2>Credencial para votar</h2>
+        <div class="header">
+            <img src="./assets/imgs/Seal_of_the_Government_of_Mexico.svg.png" alt="Government logo">
+            <p class="mx">MEXICO</>
+            <div class="title">
+                <h2 class="ine">INSTITUTO NACIONAL ELECTORAL</h2>
+                <p class="id">CREDENCIAL PARA VOTAR</p>
+            </div>
         </div>
 
-        <img class="photoId" id="img" alt="photoId">
-        <section class="full-name">
-            <h3>Nombre</h3>
-            <p id="name"></p>
-            <p id="lastName"></p>
-            <p id="familyName"></p>
-        </section>
+        <div class="details">
+            <img id="photoId" alt="Identity Photo">
+            <div class="personal-data">
+                <h4>Nombre</h4>
+                <p id="name"></p>
+                <p id="lastName"></p>
+                <p id="familyName"></p>
+                <div class="container">
+                    <div class="address">
+                        <h4>Domicilio</h4>
+                        <address id="address"></address>
+                    </div>
+                </div>
 
-        <h3>Dirección</h3>
-        <address id="address"></address>
+                <div class="electoral-data">
+                    <h4>Clave de Elector</h4>
+                    <p id="electoralCode"></p>
+                </div>
+                <div class="entry-year">
+                    <div class="curp">
+                        <h4>CURP</h4>
+                        <p id="curp"></p>
+                    </div>
+                    <div class="registation-year">
+                        <h4>Año de registro</h4>
+                        <p id="registrationYear"></p>
+                    </div>
+                </div>
 
-        <h3>Clave de Elector</h3>
-        <p id="electoralCode"></p>
+                <div class="expiration-year">
+                    <div class="birthday">
+                        <h4>Fecha de nacimiento</h4>
+                        <p id="birthday"></p>
+                    </div>
+                    <div class="section">
+                        <h4>SECCION</h4>
+                        <p id="section"></p>
+                    </div>
+                    <div class="expiration">
+                        <h4>Vigencia</h4>
+                        <p id="expiration"></p>
+                    </div>
+                    <img src="./assets/imgs/958868-200.png" alt="Mexico Seal">
+                </div>
 
-        <h3>CURP</h3>
-        <p id="curp"></p>
 
-        <h3>Fecha de nacimiento</h3>
-        <p id="birthday"></p>
+            </div>
+        </div>
 
-        <h3>Sección</h3>
-        <p id="section"></p>
-
-        <h3>Año de registro</h3>
-        <p id="registrationYear"></p>
-
-        <h3>Vigencia</h3>
-        <p id="expiration"></p>
-
-    
-        <!-- <img id='img' alt="photoId"> -->
-        <script src="./assets/js/ine.js" />
+        <script src="./assets/js/ine.js"> </script>
     </div>
 </body>
 

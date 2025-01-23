@@ -9,13 +9,13 @@ const ine = {
     familyName: "Papas",
     gender: "M",
     address: "Calle Falsa 123, Colonia Inventada, Ciudad Fantasía, Estado Desconocido, CP 12345",
-    electoralCode: "8923494",
+    electoralCode: "PIPP900924HXXXXX00",
     birthday: "24/09/1990",
     section: "0065",
     curp: "PIPP900924HXXXXX00",
     registrationYear: "2017",
     expiration: "2010-2050",
-    imgPath: "/ex-7/assets/imgs/rick.jpg"
+    img: "./assets/imgs/rick.jpg"
 }
 
 let name = ine.name;
@@ -29,8 +29,7 @@ let section = ine.section;
 let curp = ine.curp;
 let registrationYear =ine.registrationYear
 let expiration = ine.expiration
-let img = ine.imgPath;
-
+let img = ine.img;
 
 document.getElementById('name').innerHTML = name;
 document.getElementById('lastName').innerHTML = lastName;
@@ -42,4 +41,5 @@ document.getElementById('birthday').innerHTML = birthday
 document.getElementById('section').innerHTML = section
 document.getElementById('registrationYear').innerHTML = registrationYear
 document.getElementById('expiration').innerHTML = expiration
-document.getElementById('img').src = img
+document.getElementById('photoId').src = img
+
