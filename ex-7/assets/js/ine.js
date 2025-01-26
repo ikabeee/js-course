@@ -4,17 +4,17 @@
 
 
 const ine = {
-    name: "Pedro",
-    lastName: "Pica",
-    familyName: "Papas",
+    name: "Rick",
+    lastName: "Sánchez",
+    familyName: "C-137",
     gender: "M",
-    address: "Calle Falsa 123, Colonia Inventada, Ciudad Fantasía, Estado Desconocido, CP 12345",
-    electoralCode: "PIPP900924HXXXXX00",
-    birthday: "24/09/1990",
-    section: "0065",
-    curp: "PIPP900924HXXXXX00",
-    registrationYear: "2017",
-    expiration: "2010-2050",
+    address: "Avenida Interdimensional 42, Colonia Multiverso, Ciudad México, CDMX, CP 01000",
+    electoralCode: "RICS800101HXXXXX00",
+    birthday: "01/01/1980",
+    section: "1337",
+    curp: "RICS800101HXXXXX00",
+    registrationYear: "2013",
+    expiration: "2025-2055",
     img: "./assets/imgs/rick.jpg"
 }
 
