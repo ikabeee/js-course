@@ -7,7 +7,7 @@ const ine = {
     name: "Rick",
     lastName: "Sánchez",
     familyName: "C-137",
-    gender: "M",
+    sex: "H",
     address: "Avenida Interdimensional 42, Colonia Multiverso, Ciudad México, CDMX, CP 01000",
     electoralCode: "RICS800101HXXXXX00",
     birthday: "01/01/1980",
@@ -21,7 +21,7 @@ const ine = {
 let name = ine.name;
 let lastName = ine.lastName;
 let familyName = ine.familyName;
-let gender = ine.gender;
+let sex = ine.sex;
 let address = ine.address;
 let electoralCode = ine.electoralCode;
 let birthday = ine.birthday;
@@ -42,4 +42,5 @@ document.getElementById('section').innerHTML = section
 document.getElementById('registrationYear').innerHTML = registrationYear
 document.getElementById('expiration').innerHTML = expiration
 document.getElementById('photoId').src = img
-
+document.getElementById('registrationYear').innerHTML = registrationYear
+document.getElementById('sex-id').innerHTML = sex
