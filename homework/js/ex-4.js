@@ -7,8 +7,37 @@
 * * 5. Imprime la lista de frutas filtradas usando `forEach()`. 
  */
 
-const fruits = ['Gomu Gomu', 'Mera Mera', 'Hito Hito'];
-fruits.push('Suke Suke');
-fruits.splice(2,1);
-const meraFruits = fruits.filter((fruit) => fruit.includes('Mera'));
-meraFruits.forEach((fruit) => console.log(fruit));
+/* Example */
+const pirates = [
+    {
+        name: "Luffy",
+        reward: 10000,
+    },
+    {
+        name: "Zoro",
+        reward:10000,
+    },
+    {
+        name: "Sanji",
+        reward: 2134,
+    },
+    {
+        name: "Sanji",
+        reward: 233,
+    },
+    {
+        name: "Usopp",
+        reward: 5001,
+    }
+]
+
+const greatReaward = pirates.filter((pirate)=> pirate.reward>=5000);
+greatReaward.forEach((reward)=> console.log(reward))
+
+
+
+// const fruits = ['Gomu Gomu', 'Mera Mera', 'Hito Hito'];
+// fruits.push('Suke Suke');
+// fruits.splice(2,1);
+// const meraFruits = fruits.filter((fruit) => fruit.includes('Mera'));
+// meraFruits.forEach((fruit) => console.log(fruit));

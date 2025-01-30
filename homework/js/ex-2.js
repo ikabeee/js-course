@@ -9,8 +9,7 @@
  */
 
 pokemonTeam = ['Charizard', 'Pikachu', 'Bulbasaur'];
-pokemonTeam.shift();
-pokemonTeam.unshift('Squirtle')
+pokemonTeam.splice(0,1,'Squirtle')
 pokemonTeam.push('Geodude')
 nextToFight = pokemonTeam.slice(0,2);
 nextToFight.forEach((pokemon)=> console.log(pokemon))

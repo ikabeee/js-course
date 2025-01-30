@@ -9,9 +9,12 @@
 * *5. Con el equipo principal seleccionado, utiliza `reduce()` para contar cuántas letras hay en total en los nombres de los miembros del equipo (por ejemplo, 'Naruto' tiene 6 letras).
 * * 
 */
+/* Example */
 
 
 const shinobi = ['Naruto', 'Sasuke', 'Sakura'];
 shinobi.push('Konohamaru');
 shinobi.unshift('Kakashi');
 const firstTeam = shinobi.slice(0,3);
+const letterCounter=0;
+const totalLetters = shinobi.reduce()

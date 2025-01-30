@@ -9,6 +9,6 @@
 
 const akatsuki = ['Itachi', 'Kisame', 'Deidara'];
 akatsuki.unshift('Tobi');
-akatsuki.splice(1,1);
+akatsuki.splice(akatsuki.indexOf('Itachi'), 1);
 const newTeam = akatsuki.map((member)=>`Akatsuki: ${member}`)
 newTeam.forEach((member)=>console.log(`${member}`))
