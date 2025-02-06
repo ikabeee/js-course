@@ -15,6 +15,9 @@
 const shinobi = ['Naruto', 'Sasuke', 'Sakura'];
 shinobi.push('Konohamaru');
 shinobi.unshift('Kakashi');
-const firstTeam = shinobi.slice(0,3);
-const letterCounter=0;
-const totalLetters = shinobi.reduce()
+const firstTeam = shinobi.slice(0, 3);
+const totalLetters = firstTeam.reduce((accumulated, name) => accumulated + name.length-1, 0);
+firstTeam.forEach((member) => {
+    console.log(`${member} tiene un total de letras de ${member.length-1}`);
+});
+console.log(`El equipo tiene un total de letras de ${totalLetters}`); 
